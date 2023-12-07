@@ -1,4 +1,4 @@
-## Prerequisites
+# Prerequisites
 Before you start, make sure you have the following installed on your system:
 
 - [Cygwin](https://www.cygwin.com/): A large collection of GNU and Open Source tools, which provides functionalities similar to a Linux distribution on Windows.
