@@ -1,5 +1,6 @@
 # Lox_bytecode
-Implementation of the Lox programming language Bytecode Virtual Machine from the textbook(Part III): [*Crafting Interpreters* by Robert Nystrom](https://craftinginterpreters.com/) in C. Chapter 14-24 were completed. 
+- Implementation of the Lox programming language Bytecode Virtual Machine from the textbook(Part III): [*Crafting Interpreters* by Robert Nystrom](https://craftinginterpreters.com/) in C. 
+- Chapters 14-24 were completed. 
 # Prerequisites
 Before you start, make sure you have the following installed on your system:
 
