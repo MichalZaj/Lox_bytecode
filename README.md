@@ -1,13 +1,11 @@
+# Lox_bytecode
+Implementation of the Lox programming language Bytecode Virtual Machine from the textbook(Part III): [*Crafting Interpreters* by Robert Nystrom](https://craftinginterpreters.com/) in C. Chapter 14-24 were completed. 
 # Prerequisites
 Before you start, make sure you have the following installed on your system:
 
 - [Cygwin](https://www.cygwin.com/): A large collection of GNU and Open Source tools, which provides functionalities similar to a Linux distribution on Windows.
 - [GCC Compiler](https://gcc.gnu.org/): The GNU Compiler Collection for compiling C code.
 - [Visual Studio Code](https://code.visualstudio.com/): Code editor.
-
-# Lox_bytecode
-Implementation of the Lox programming language Bytecode Virtual Machine from the textbook(Part III): [*Crafting Interpreters* by Robert Nystrom](https://craftinginterpreters.com/) in C.
-
 # Chapter Progress
 - The "Lox_Bytecode_Progress" folder contains the code for each chapter completed in the textbook. 
 # Install/Build
@@ -29,7 +27,7 @@ make
 ./bin/my_program --test test > output1.txt 2>&1
 ```
 - This command runs the executable and redirects stderr to the same location as stdout.
-- The following part of the main code in runTestRepo ensures that the output will be flushed to the file immediately after each print statement: `fflush(stdout);  // Flush stdout`
+- The following part of the main code in "runTestRepo()" ensures that the output will be flushed to the file immediately after each print statement: `fflush(stdout);  // Flush stdout`
 - The output of the tests on my machine is in the "TestOutput.txt" file : [Test Output](TestOutput.txt)
 # Repository Layout
 *   `Lox_Bytecode_Progress/` - The code of the Interpreter developed chapter by chapter
