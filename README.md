@@ -30,6 +30,7 @@ make
 - This command runs the executable and redirects stderr to the same location as stdout.
 - The following part of the main code in "runTestRepo()" ensures that the output will be flushed to the file immediately after each print statement: `fflush(stdout);  // Flush stdout`
 - The output of the tests on my machine is in the "TestOutput.txt" file : [Test Output](TestOutput.txt)
+- The tests that failed were in the folders: this, inheritance, super, closure. This is due to not finishing all of the chapters.
 # Repository Layout
 *   `Lox_Bytecode_Progress/` - The code of the Interpreter developed chapter by chapter
 *   `Interpreter_Lox/` - The Interpreter project folder with all necessary files.
